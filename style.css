@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ffcc;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 5px 0 0 0;
+  font-weight: normal;
+  color: #ccc;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #00ffcc;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #222;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 4px solid #00ffcc;
+}
+
+/* Canvas (for Pong) */
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: black;
+  border: 2px solid #00ffcc;
+}
